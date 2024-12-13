@@ -4,9 +4,7 @@
   "description": "backend code for server-wtf",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "dev": "tsx watch src/index.ts"
 
   },
   "author": "Boby Tiwari",
