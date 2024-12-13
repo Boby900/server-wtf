@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "module": "ESNext",
+      "target": "ES2020",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+  
+      "skipLibCheck": true, //uncommenting this will not throw any error of 3rd party
+  
+  
+      "rootDir": "./src",
+      "outDir": "./dist",    
+    },
+    "exclude": ["drizzle.config.ts","tests/**"]
+  }
+  
