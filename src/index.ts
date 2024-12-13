@@ -5,9 +5,11 @@ import dotenv from 'dotenv';
 import connectDB from './db';
 dotenv.config({ path: '.env' });
 
+
+connectDB()
 const app = express();
 app.use(cors())
-connectDB()
+
 // const allowedOrigin =
 //   process.env.NODE_ENV === 'production'
 //     ? 'https://clientverse.vercel.app'
