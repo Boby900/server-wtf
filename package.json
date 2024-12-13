@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "npx tsc"
+    "build": "tsc",
+    "start": "node dist/index.js"
+
   },
   "author": "Boby Tiwari",
   "license": "ISC",
@@ -22,6 +24,8 @@
     "tsx": "^4.19.2"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.17"
-  }
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.7.2"
+  },
+  "type": "module"
 }

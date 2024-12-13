@@ -2,7 +2,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import connectDB from './db';
+import connectDB from './db.js';
 dotenv.config({ path: '.env' });
 
 
